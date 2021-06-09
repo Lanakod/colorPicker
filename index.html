@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body onload="changeColor()">
+    <div class="colorPicker">
+        <div class="colorField">
+            <p class="colorText">There will be the current color</p>
+        </div>
+        <input class="colorRange" type="range" min="0" max="255" oninput="changeColor()">
+        <input class="colorRange" type="range" min="0" max="255" oninput="changeColor()">
+        <input class="colorRange" type="range" min="0" max="255" oninput="changeColor()">
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
